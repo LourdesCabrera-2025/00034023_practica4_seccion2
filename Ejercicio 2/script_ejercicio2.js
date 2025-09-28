@@ -71,3 +71,33 @@ var operacion , total;
 operacion  = 15 + 25;
 total = Math.round(operacion/15 * 24);
 console.log(total); 
+
+const informacion = "FIRE " + "WORKS";
+console.log(informacion);
+
+const sumaStringNumero = 25 + "1965";
+console.log(sumaStringNumero);
+
+let inicio = +5;
+const sumaYAsigna = ++inicio;
+const asignaYsuma = inicio++;
+const restaYAsigna = --inicio;
+const asignaYresta = inicio--;
+console.log(sumaYAsigna);
+console.log(asignaYsuma);
+console.log(inicio);
+
+let x = 13;
+let y = 24;
+let z = 54;
+
+console.log(x = y );
+console.log(x += z);
+console.log(x*= y)
+
+const Save = !true;
+
+const cherto = true && true;
+let noEcherto = false && true;
+noEcherto = false && false;
+noEcherto = true && false;
