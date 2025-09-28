@@ -46,3 +46,28 @@ console.log(typeof null);
 console.log(typeof {key: 3});
 console.log(typeof [15,4]);
 console.log(typeof new Date());
+
+console.log(true);
+console.log(false);
+console.log(typeof new Boolean(true));
+
+console.log(typeof "Hola mi nombre es lourdes")
+
+console.log(typeof function () {});
+
+
+console.log(typeof 1);
+
+console.log(typeof NaN);
+console.log(typeof Infinity);
+
+console.log(typeof Symbol("Hola mundo"));
+
+const  suma = 15 + 25;
+console.log (suma);
+
+var operacion , total;
+
+operacion  = 15 + 25;
+total = Math.round(operacion/15 * 24);
+console.log(total); 
