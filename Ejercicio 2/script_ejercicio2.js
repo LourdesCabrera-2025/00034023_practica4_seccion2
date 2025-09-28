@@ -34,17 +34,17 @@ console.log(AnyProblem, ThisProblem, AlmostFailed);
 
 const variable = 15;
 console.log(typeof variable);
-const Products = ['Pizza' , 'macarons'];
+const Products = ['Pizza', 'macarons'];
 console.log(Products instanceof Array);
 console.log(Products instanceof Object);
 
 
-console.log (typeof undefined);
+console.log(typeof undefined);
 
 console.log(typeof ValorKnown);
 console.log(typeof null);
-console.log(typeof {key: 3});
-console.log(typeof [15,4]);
+console.log(typeof { key: 3 });
+console.log(typeof [15, 4]);
 console.log(typeof new Date());
 
 console.log(true);
@@ -53,7 +53,7 @@ console.log(typeof new Boolean(true));
 
 console.log(typeof "Hola mi nombre es lourdes")
 
-console.log(typeof function () {});
+console.log(typeof function () { });
 
 
 console.log(typeof 1);
@@ -63,14 +63,14 @@ console.log(typeof Infinity);
 
 console.log(typeof Symbol("Hola mundo"));
 
-const  suma = 15 + 25;
-console.log (suma);
+const suma = 15 + 25;
+console.log(suma);
 
-var operacion , total;
+var operacion, total;
 
-operacion  = 15 + 25;
-total = Math.round(operacion/15 * 24);
-console.log(total); 
+operacion = 15 + 25;
+total = Math.round(operacion / 15 * 24);
+console.log(total);
 
 const informacion = "FIRE " + "WORKS";
 console.log(informacion);
@@ -91,9 +91,9 @@ let x = 13;
 let y = 24;
 let z = 54;
 
-console.log(x = y );
+console.log(x = y);
 console.log(x += z);
-console.log(x*= y)
+console.log(x *= y)
 
 const Save = !true;
 
