@@ -2,7 +2,7 @@
 
 
 ## Captura de pantalla **Ejercicio 2**
-![alt text](image-2.png)
+![alt text](image-2.png)![alt text](image.png)
 
 ----
 
@@ -14,13 +14,13 @@
 
 Se instancian las variables `X`, `Y` y `Z` utilizando `let`:
 
-Nota: <span style = " color: white; background-color: rgba(176,196,222, 0.5) ;" > **_Si se quiere reutilizar una variable declarada previamente y reasignarle un valor, es mejor usar **`var`**, porque **`let`** no permite redeclarar la misma variable._** </span>
+Nota: <span> **_Si se quiere reutilizar una variable declarada previamente y reasignarle un valor, es mejor usar **`var`**, porque **`let`** no permite redeclarar la misma variable._** </span>
 
 ### Paso 2: Asignación de valores
 
 Se asignan los valores iniciales a cada variable
 
-Importante: <span style = "background-color: LightSteelBlue; color: white; radius=5px"> **_Estos valores serán usados posteriormente en las operaciones con los operadores combinados_**</span>
+Importante: <span > **_Estos valores serán usados posteriormente en las operaciones con los operadores combinados_**</span>
 
 ### Paso 3: Operadores de asignación combinados 
 
