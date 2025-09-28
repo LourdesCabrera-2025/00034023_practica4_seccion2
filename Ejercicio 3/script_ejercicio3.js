@@ -59,4 +59,49 @@ function esPar (arr) {
     return pares;
 }
 
+
 console.log("Numeros pares: " , esPar(Numeros));
+
+let Crecimiento = [];
+let Decrecimiento = [];
+
+function ObtenerDatos (Crecimiento, Decrecimiento) {
+    console.log("Valor ingresado : ", Crecimiento);
+    console.log("Valor ingresado : ", Decrecimiento)
+}
+while (true) {
+    let velocidadCrecimiento = prompt("Ingresa los dias de Crecimiento de la planta : ");
+    let velocidadDecrecimiento = prompt("Ingresa los dias de Decrecimiento de la planta : ");
+
+    if(velocidadCrecimiento === null || velocidadCrecimiento.toLowerCase() === "fin") break; 
+    let valorCrecimiento = Number(velocidadCrecimiento);
+    let valorDecrecimiento = Number(velocidadDecrecimiento);
+    if(!isNaN(valorCrecimiento)  && valorCrecimiento >= 0) {
+        Crecimiento.push(valorCrecimiento);
+    } 
+    if (!isNaN(valorDecrecimiento) && valorDecrecimiento >= 0) {
+        Decrecimiento.push(valorDecrecimiento);
+    } else {
+        console.log("Por favor ingrese un dato valido")
+    }
+}
+
+ObtenerDatos(Crecimiento, Decrecimiento);
+for (let i = 0; i < Crecimiento.length && i < Decrecimiento.length; i++) {
+    let dias = calcularDiasCrecimiento(Crecimiento[i], Decrecimiento[i], 10);
+    console.log(`Caso ${i+1}: Crece ${Crecimiento[i]}, Decrece ${Decrecimiento[i]} → Días: ${dias}`);
+}
+function calcularDiasCrecimiento (velocidadCrecimiento, velocidadDecrecimiento, alturaDeseada) {
+    let altura = 0;
+    let dias = 0;
+
+    while (altura < alturaDeseada) {
+        altura += velocidadCrecimiento;
+        dias++;
+        if(altura >= alturaDeseada) {return dias}
+        altura -= velocidadDecrecimiento;
+    }
+
+    return dias;
+}
+
