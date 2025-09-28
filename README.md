@@ -14,7 +14,7 @@
 
 Se instancian las variables `X`, `Y` y `Z` utilizando `let`:
 
-Nota: <div style = " border: 2px solid rgba(176,196,222); border-radius= 5px; background-color: rgba(176,196,222, 0.5) ;"><span style = " color: white;" > **_Si se quiere reutilizar una variable declarada previamente y reasignarle un valor, es mejor usar **`var`**, porque **`let`** no permite redeclarar la misma variable._** </span></div>
+Nota: <span style = " color: white; background-color: rgba(176,196,222, 0.5) ;" > **_Si se quiere reutilizar una variable declarada previamente y reasignarle un valor, es mejor usar **`var`**, porque **`let`** no permite redeclarar la misma variable._** </span>
 
 ### Paso 2: Asignación de valores
 
